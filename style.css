@@ -1,0 +1,79 @@
+.DancingFont {
+  font-family: 'Dancing Script', cursive;
+}
+
+.Lobster {
+  font-family:'Lobster';
+}
+
+body {
+  background-color: rgb(234,255,255);
+}
+
+.bodycolor
+{
+  background-color: rgb(234,255,255);
+}
+/*in order to center in screen*/
+.centHor
+{
+    position: absolute;
+    left: 50%;
+    margin-left: -50px;
+    width: 100px;
+}
+
+.centVert
+{
+    position: absolute;
+    top: 50%;
+    margin-top: -50px;
+    height: 100px;
+}
+
+.emptytextbox
+{
+  width:0px;
+  border-radius:10px;
+  border:2px solid orange;
+}
+
+.font-sm
+{
+  font-size:12px;
+  font-family:'Times New Roman';
+}
+
+.hidd
+{
+   display:none;
+}
+
+
+#searchclear {
+    position: absolute;
+    right: 5px;
+    top: 0;
+    bottom: 0;
+    height: 14px;
+    margin: auto;
+    font-size: 14px;
+    cursor: pointer;
+    color: #ccc;
+}
+
+.orange {color:rgb(255,165,0);}
+
+
+/*used for panel to display handcursor*/
+.pointercursor {
+  cursor: pointer;
+}
+/*
+.hov:hover{
+  box-shadow: 5px 5px 5px rgba(20,20,20,0.4);
+  top: -3px;
+  border-left-color: #f09006;
+}
+*/
+
